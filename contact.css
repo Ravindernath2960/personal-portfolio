@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(90deg, #012f36 0%,#012f36 30%,#0d3940 30%,#0d3940 100%);
+}
+
+.contactl{
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    left: 10%;
+    width: 25%;
+    background-color: #053941;
+    z-index: 4;
+}
+.contactr{
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: 10%;
+    width: 60%;
+    background-color: whitesmoke;
+}
